@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>AdopetConfia</title> 
+    <link rel="stylesheet" href="css/styles.css"> 
+</head> 
+<body> 
+    <header> 
+        <nav> 
+            <a href="#"><img src="img/LOGO.jpg" alt=""></a>
+            <ul> 
+                <li><a href="#">Inicio</a></li> 
+                <li><a href="#">Nosotros</a></li> 
+                <li><a href="#">Galeria</a></li> 
+                <li><a href="#">Comentar</a></li> 
+                <li><a href="#">Consultas</a></li> 
+                <li><a href="#">Reseñas</a></li> 
+            </ul> 
+            <button>Ingresar</button> 
+        </nav> 
+    </header> 
+    <main id="main-section"> 
+        <!--INICIO (1ra seccion)-->
+        <section class="introduction">
+            <h1>      ‎  </h1>             
+            <h1>Encuentra a tu </h1> 
+            <h1>nuevo compañero </h1>
+            <h1>en nuestro centro </h1> 
+            <h1>de adopción</h1>  
+            <p>"Donde comienza la historia de la amistad perfecta"</p> 
+            <div class="search-bar"> 
+                <input type="text" placeholder="Buscar mascota..."> 
+                <input type="text" placeholder="Lugar de procedencia"> 
+                <button>🔍</button> 
+            </div> 
+            <div class="boxIntroduction">
+                <img src="img/Img_izquierda1.jpg" class="Img_izquierda1Introduction" alt="">
+                <img src="img/Img_Medio.jpg" class="Img_MedioIntroduction" alt="">
+                <img src="img/Img_derecha1.jpg" class="Img_derecha1Introduction" alt="">
+            </div>
+        </section> 
+
+        <!--GALERIA (2da seccion)-->
+        <section class="gallery"> 
+            <h2>Mira lo que nuestra página tiene para</h2>
+            <h2>ofrecer</h2>
+            <p>¡Estos animalitos buscan un compañero y ese podrías ser tú!</p>
+
+            <div class="boxGallery">
+                <img class= "imagenGallery" src="img/Img_derecha1.jpg" alt="Mascota 1"> 
+
+                <img class= "imagenGallery" src="img/2.jpeg" alt="Mascota 2"> 
+
+                <img class= "imagenGallery" src="img/3.jpeg" alt="Mascota 3"> 
+
+                <img class= "imagenGallery" src="ruta_img4.jpg" alt="Mascota 4"> 
+
+                <img class= "imagenGallery" src="ruta_img5.jpg" alt="Mascota 5"> 
+
+                <img class= "imagenGallery" src="ruta_img6.jpg" alt="Mascota 6"> 
+                <img class= "imagenGallery" src="img/Img_Medio.jpg" alt="Mascota 6"> 
+                <img class= "imagenGallery" src="ruta_img8.jpg" alt="Mascota 6"> 
+                <img class= "imagenGallery" src="ruta_img9.jpg" alt="Mascota 6"> 
+                <img class= "imagenGallery" src="ruta_img10.jpg" alt="Mascota 6">
+                <img class= "imagenGallery" src="ruta_img11.jpg" alt="Mascota 6">
+                <img class= "imagenGallery" src="ruta_img12.jpg" alt="Mascota 6">
+            </div>
+            
+        </section> 
+    
+        <!--TESTIMONIOS (3ra seccion)-->
+        <section class="testimonials"> 
+            <h2>Lo que nuestros clientes</h2>
+            <h2>dicen sobre nosotros</h2>
+            <p>Descubre las historias de amor y gratitud de quienes encontraron a su <br>
+               compañero perfecto. Sus testimonios son la mejor prueba de nuestro <br>
+               compromiso con la felicidad de las mascotas y sus familias adoptivas.</p>
+
+            <div class="carousel-container">
+                <div class="carousel-content" id="carousel">
+                    <div class="carousel-item">Slide 1</div>
+                    <div class="carousel-item">Slide 2</div>
+                    <div class="carousel-item">Slide 3</div>
+                  <div class="carousel-item">Slide 3</div>
+                  <div class="carousel-item">Slide 3</div>
+                  <div class="carousel-item">Slide 3</div>
+                </div>
+            </div>
+        
+            <button class="carousel-button" onclick="prevSlide()">Anterior</button>
+            <button class="carousel-button" onclick="nextSlide()">Siguiente</button>
+
+        </section> 
+ 
+        <!--PREGUNTAS FRECUENTES (4ta seccion)-->
+        <section class="questions"> 
+            <h2>Preguntas Frecuentes</h2> 
+            <p>Informacion para las personas que buscan adoptar una <br>
+               mascota. Resuelve tus dudas</p>
+
+            <div class="accordion">
+                <div class="accordion-item">¿Cómo puedo encontrar albergues de animales cerca de mi ubicación?</div>
+                <div class="accordion-content">Contenido 1</div>
+        
+                <div class="accordion-item">¿Qué información necesito proporcionar para registrarme?</div>
+                <div class="accordion-content">Para registrarte en AdopetConfia, necesitas proporcionar tu nombre completo, una dirección de correo electrónico válida, teléfono, dirección y fecha de nacimiento. También deberás crear una contraseña segura para tu cuenta. Una vez que completes estos campos, estarás listo para comenzar a utilizar nuestra plataforma y explorar las opciones de adopción de mascotas disponibles.</div>
+        
+                <div class="accordion-item">¿Cómo puedo contactar a un albergue de animales para obtener información?</div>
+                <div class="accordion-content">Contenido 3</div>
+
+                <div class="accordion-item">¿Cómo se asegura la confiabilidad de albergues y organizaciones de rescate?</div>
+                <div class="accordion-content">Contenido 4</div>
+            </div>
+
+        </section> 
+
+        <!--EQUIPO DE TRABAJO (5ta seccion)-->
+        <section class="team"> 
+            <h2>Nuestro equipo de trabajo</h2> 
+            <p>Conoce quiénes forman parte de este increible <br>
+               proyecto</p>
+            <div class="boxTeam">
+                <figure class="imagenTeam"> 
+
+                    <img src="img/Img_derecha1.jpg" alt="Miembro 1"> 
+                    
+                    <figcaption>Nombre Miembro 1</figcaption> 
+
+                </figure> 
+                <figure class="imagenTeam"> 
+
+                    <img src="img/Img_derecha2.jpg" alt="Miembro 2"> 
+                    
+                    <figcaption>Nombre Miembro 2</figcaption> 
+
+                </figure> 
+                <figure class="imagenTeam"> 
+
+                    <img src="img/Img_izquierda1.jpg" alt="Miembro 3"> 
+                    
+                    <figcaption>Nombre Miembro 3</figcaption> 
+
+                </figure> 
+                <figure class="imagenTeam"> 
+
+                    <img src="img/Img_derecha2.jpg" alt="Miembro 4"> 
+                    
+                    <figcaption>Nombre Miembro 4</figcaption> 
+
+                </figure> 
+                <figure class="imagenTeam"> 
+
+                    <img src="ruta_img_equipo1.jpg" alt="Miembro 5"> 
+                    
+                    <figcaption>Nombre Miembro 5</figcaption> 
+
+                </figure> 
+                <figure class="imagenTeam"> 
+
+                    <img src="ruta_img_equipo1.jpg" alt="Miembro 6"> 
+                    
+                    <figcaption>Nombre Miembro 6</figcaption> 
+
+                </figure> 
+            </div>
+        </section> 
+        <!-- COMENTARIOS (6ta seccion)-->
+        <section class="Comentarios">
+            <div class="containerComentarios row">
+                <!--Division para la imagen-->
+                <div class="boxComentarios col2">
+                    <h1>Tu opinión nos importa <br>
+                        ¡Déjanos un comentario!</h1>
+                    <p id="txtComentarios">
+                        Te invitamos a colaborar con nosotros en la mejora continua <br>
+                        de AdopetConfia, contribuyendo a asegurar una experiencia <br> 
+                        excepcional para cada uno de nuestros valiosos usuarios.</p>                    
+                    <div class="botonComentarios">
+                        <a href="#" class="btnComentarios">Cuéntanos -></a>
+                    </div>
+                </div>
+                <div class="boxComentarios col1-md-5 col12">
+                    <img src="img/2.jpeg" class="imgComentarios" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- DONACIONES (7ta seccion)-->
+        <section class="donations"> 
+            <h2>¿Quieres mantener esa sonrisa que compartes con tu <br>
+                mascota? puedes apoyarnos con una donación para seguir <br>
+                mejorando y brindarte el mejor servicio posible.</h2> 
+                
+            <img src="ruta_codigo_qr.jpg" alt="Código QR para donaciones"> 
+
+        </section> 
+
+    </main> 
+  
+
+
+
+    <footer> 
+        <p>&copy; 2022 AdopetConfia. Todos los derechos reservados.</p>
+    </footer> 
+    <script src="js/menu.js"></script> 
+</body> 
+
+</html> 
