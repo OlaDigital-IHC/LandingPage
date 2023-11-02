@@ -187,7 +187,7 @@ h2{
 
 
 .carousel-container {
-    width: 300px;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -198,7 +198,7 @@ h2{
 
 .carousel-item {
     /* cambiar el porcentaje*/
-    min-width: 50%; 
+    min-width: 25%; 
     box-sizing: border-box;
 }
 
@@ -211,6 +211,7 @@ h2{
 .questions{
     padding-left: 467px;
     padding-right: 467px;
+    margin-bottom: 80px;
 } 
 .questions p{
     align-content: center;
@@ -362,3 +363,91 @@ h1{
 footer{
     background: #FFEFD3;
 } 
+
+
+
+
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-rectangle {
+    width: 329px;
+    height: 223px;
+    background: white;
+    box-shadow: 0px 1px 4px rgba(24, 32, 61, 0.08);
+    border-radius: 8px;
+    border: 1px #E1E4ED solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px;
+    text-align: left;
+}
+
+.text {
+    background: white;
+    color: #484B53;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: left;
+}
+
+.additional-info {
+    background: white;
+    color: #484B53;
+    font-family: Inter;
+    text-align: left;
+}
+
+.author {
+    background: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.date-info {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.date {
+    background: white;
+    opacity: 0.50;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+
+.rating{
+    background: white;
+}
+.star{
+    background: white;
+    
+}
+#amarillo{
+    color: #E6CF00;
+}
+#gris{
+    color: #B4B9C9;
+}
