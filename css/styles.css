@@ -340,6 +340,21 @@ h1{
     text-align: center; 
 } 
 
+.donations img{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-color: #81450E;
+    border-width: 40px;
+    border-radius: 8px; 
+    margin-top: 30px;
+}
+
+.imagenDonations{
+    text-align: center;
+}
+
 
 
 
