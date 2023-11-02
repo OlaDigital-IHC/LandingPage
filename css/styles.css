@@ -360,15 +360,6 @@ h1{
 
 
 
-footer{
-    background: #FFEFD3;
-} 
-
-
-
-
-
-
 
 .container {
     width: 100%;
@@ -450,4 +441,39 @@ footer{
 }
 #gris{
     color: #B4B9C9;
+}
+
+
+footer{
+    background: #EFBD8A;
+}
+
+footer p{
+    background: #EFBD8A;
+    margin: 0;
+    color: #81450E;
+    padding-top: 10px;
+    font-size: 1em;
+}
+footer .container{
+    background: #EFBD8A;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+footer .container img{
+    height: 43px;
+    width: 100px;
+    margin: 15px;
+}
+
+footer .icons{
+    color:#DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0 3px 0;
+    padding: 0;
 }
