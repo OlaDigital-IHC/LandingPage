@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body { 
@@ -72,6 +73,7 @@ li a:hover{
     color:#81450E;
     font-weight: 900;
     background: #FFEFD3;
+    margin-top: 70px;
 }
 p{
     margin-top: 20px; 
@@ -96,12 +98,15 @@ button{
 .Img_izquierda1Introduction{
     margin-top: 40px; 
     height: 380px;
+    margin: 30px;
 }
 .Img_MedioIntroduction{
     height: 280px;
+    margin: 30px;
 }
 .Img_derecha1Introduction{
     height: 380px;
+    margin: 30px;
 }
 .search-bar { 
     display: flex; 
@@ -109,8 +114,12 @@ button{
     justify-content: center; 
     margin-top: 20px; 
 } 
-
-
+.barreraNavegacion{
+    display: flex;
+}
+.barreraNavegacion a{
+    background: #EFBD8A;
+}
 /* 2da SECCION GALERIA */
 .gallery { 
     background: #FFEFD3;
@@ -301,11 +310,8 @@ h2{
 }
 
 /*5ta SECCION EQUIPO DE TRABAJO */
-.team{
-    justify-content: center;
-    display: contents;
-}
-.team figure { 
+
+.Team figure { 
     background: #FFEFD3;
     display: inline-block; 
 
@@ -313,21 +319,21 @@ h2{
 
     text-align: center; 
 } 
-.team p{
+.Team p{
     align-content: center;
     text-align: center;
     padding-left: 80px;
 }
-.team h2{
+.Team h2{
     padding-left: 80px;
 }
 .boxTeam{
     display: grid;
-    width: 70%;
-    padding-left: 300px;
-    padding-right: 300px;
+    width: 90%;
+    padding-left: 90px;
+    padding-right: 0px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 300px;
+    grid-template-rows: 400px 400px;
 }
 .imagenTeam img{
     width: 280px;
