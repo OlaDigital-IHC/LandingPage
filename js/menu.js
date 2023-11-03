@@ -65,12 +65,12 @@ questions.addEventListener("click", (q) =>{
     sectionQuestions.scrollIntoView({behavior:"smooth"}); /*hace una transicion */
 })
 
-const team = document.querySelector("#team"); 
+const team = document.querySelector("#Team"); 
 /* MENU TEAM */
 team.addEventListener("click", (t) =>{
     t.preventDefault();
 
-    const sectionTeam= document.querySelector(".team");
+    const sectionTeam= document.querySelector(".Team");
     sectionTeam.scrollIntoView({behavior:"smooth"}); /*hace una transicion */
 })
 
