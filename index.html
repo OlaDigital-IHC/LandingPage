@@ -13,26 +13,27 @@
 <body> 
     <header> 
         <nav> 
-            <a href="#"><img src="img/LOGO.jpg" alt=""></a>
-            <ul> 
-                <li><a href="#">Inicio</a></li> 
-                <li><a href="#">Nosotros</a></li> 
-                <li><a href="#">Galeria</a></li> 
-                <li><a href="#">Comentar</a></li> 
-                <li><a href="#">Consultas</a></li> 
-                <li><a href="#">Reseñas</a></li> 
-            </ul> 
-            <button>Ingresar</button> 
+            <div class="barreraNavegacion">
+                <a href="#"><img src="img/LOGO.jpeg" alt="" class="imgLogo"></a>
+                <ul> 
+                    <li><a href="#">Inicio</a></li> 
+                    <li><a href="#" id="Team">Nosotros</a></li> 
+                    <li><a href="#" id="gallery">Galeria</a></li> 
+                    <li><a href="#" id="Comentarios">Comentar</a></li> 
+                    <li><a href="#" id="questions">Consultas</a></li> 
+                    <li><a href="#" id="testimonials">Reseñas</a></li> 
+                </ul> 
+            </div>
+            <button class="botonIngresar">Ingresar</button> 
         </nav> 
     </header> 
     <main id="main-section"> 
         <!--INICIO (1ra seccion)-->
         <section class="introduction">
-            <h1>      ‎  </h1>             
-            <h1>Encuentra a tu </h1> 
-            <h1>nuevo compañero </h1>
-            <h1>en nuestro centro </h1> 
-            <h1>de adopción</h1>  
+            <h1>Encuentra a tu <br> 
+                nuevo compañero <br>
+                en nuestro centro <br>
+                de adopción</h1>  
             <p>"Donde comienza la historia de la amistad perfecta"</p> 
             <div class="search-bar"> 
                 <input type="text" placeholder="Buscar mascota..."> 
@@ -51,27 +52,31 @@
             <h2>Mira lo que nuestra página tiene para</h2>
             <h2>ofrecer</h2>
             <p>¡Estos animalitos buscan un compañero y ese podrías ser tú!</p>
-
             <div class="boxGallery">
-                <img class= "imagenGallery" src="img/Img_derecha1.jpg" alt="Mascota 1"> 
+                <img class= "imagenGallery" src="img/1.jpeg" alt="Mascota 1"> 
 
                 <img class= "imagenGallery" src="img/2.jpeg" alt="Mascota 2"> 
 
                 <img class= "imagenGallery" src="img/3.jpeg" alt="Mascota 3"> 
 
-                <img class= "imagenGallery" src="ruta_img4.jpg" alt="Mascota 4"> 
+                <img class= "imagenGallery" src="img/4.jpeg" alt="Mascota 4"> 
 
-                <img class= "imagenGallery" src="ruta_img5.jpg" alt="Mascota 5"> 
+                <img class= "imagenGallery" src="img/5.jpeg" alt="Mascota 5"> 
 
-                <img class= "imagenGallery" src="ruta_img6.jpg" alt="Mascota 6"> 
-                <img class= "imagenGallery" src="img/Img_Medio.jpg" alt="Mascota 6"> 
-                <img class= "imagenGallery" src="ruta_img8.jpg" alt="Mascota 6"> 
-                <img class= "imagenGallery" src="ruta_img9.jpg" alt="Mascota 6"> 
-                <img class= "imagenGallery" src="ruta_img10.jpg" alt="Mascota 6">
-                <img class= "imagenGallery" src="ruta_img11.jpg" alt="Mascota 6">
-                <img class= "imagenGallery" src="ruta_img12.jpg" alt="Mascota 6">
+                <img class= "imagenGallery" src="img/6.jpg" alt="Mascota 6"> 
+
+                <img class= "imagenGallery" src="img/7.jpeg" alt="Mascota 7"> 
+
+                <img class= "imagenGallery" src="img/8.jpeg" alt="Mascota 8"> 
+
+                <img class= "imagenGallery" src="img/9.jpeg" alt="Mascota 9"> 
+
+                <img class= "imagenGallery" src="img/10.jpeg" alt="Mascota 10">
+
+                <img class= "imagenGallery" src="img/11.jpeg" alt="Mascota 11">
+
+                <img class= "imagenGallery" src="img/12.jpeg" alt="Mascota 12">
             </div>
-            
         </section> 
     
         <!--TESTIMONIOS (3ra seccion)-->
@@ -81,9 +86,9 @@
             <p>Descubre las historias de amor y gratitud de quienes encontraron a su <br>
                compañero perfecto. Sus testimonios son la mejor prueba de nuestro <br>
                compromiso con la felicidad de las mascotas y sus familias adoptivas.</p>
-
             <div class="carousel-container">
                 <div class="carousel-content" id="carousel">
+                    <!-- 1er testimonio -->
                     <div class="carousel-item">
                         <div class="container">
                             <div class="white-rectangle">
@@ -94,31 +99,7 @@
                                         <span class="star" id="amarillo">&#9733;</span>
                                         <span class="star" id="amarillo">&#9733;</span>
                                         <span class="star" id="amarillo">&#9733;</span>
-                                        <span class="star" id="gris">&#9733;</span>
-                                    </div>
-                                    <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
-                                    <div class="additional-info">
-                                        <div class="author">Carla Del Pilar</div>
-                                        <div class="date-info">
-                                            <div class="date">10 de julio de 2023</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="carousel-item">
-                        <div class="container">
-                            <div class="white-rectangle">
-                                <div class="content">
-                                    <div class="rating">
-                                        <!-- añadir estrella -->
                                         <span class="star" id="amarillo">&#9733;</span>
-                                        <span class="star" id="amarillo">&#9733;</span>
-                                        <span class="star" id="amarillo">&#9733;</span>
-                                        <span class="star" id="amarillo">&#9733;</span>
-                                        <span class="star" id="gris">&#9733;</span>
                                     </div>
                                     <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
                                     <div class="additional-info">
@@ -131,7 +112,31 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- 2do testimonio -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="white-rectangle">
+                                <div class="content">
+                                    <div class="rating">
+                                        <!-- añadir estrella -->
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                    </div>
+                                    <div class="text">"AdopetConfia hizo que encontrar y adoptar a mi compañero peludo fuera una experiencia emocionante y sin complicaciones. ¡Son geniales!"</div>
+                                    <div class="additional-info">
+                                        <div class="author">Stephanie Jimenez</div>
+                                        <div class="date-info">
+                                            <div class="date">26 de Agosto de 2023</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3er testimonio -->
                     <div class="carousel-item">
                         <div class="container">
                             <div class="white-rectangle">
@@ -144,69 +149,69 @@
                                         <span class="star" id="amarillo">&#9733;</span>
                                         <span class="star" id="gris">&#9733;</span>
                                     </div>
-                                    <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
+                                    <div class="text">"AdopetConfia nos dio la confianza para dar el paso hacia la adopción. Estamos agradecidos por esta plataforma que promueve la adopción responsable."</div>
                                     <div class="additional-info">
-                                        <div class="author">Carla Del Pilar</div>
+                                        <div class="author">Christopher Vargas</div>
                                         <div class="date-info">
-                                            <div class="date">10 de julio de 2023</div>
+                                            <div class="date">3 de Setiembre de 2023</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  <div class="carousel-item">
-                    <div class="container">
-                        <div class="white-rectangle">
-                            <div class="content">
-                                <div class="rating">
-                                    <!-- añadir estrella -->
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="gris">&#9733;</span>
-                                </div>
-                                <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
-                                <div class="additional-info">
-                                    <div class="author">Carla Del Pilar</div>
-                                    <div class="date-info">
-                                        <div class="date">10 de julio de 2023</div>
+                    <!-- 4to testimonio -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="white-rectangle">
+                                <div class="content">
+                                    <div class="rating">
+                                        <!-- añadir estrella -->
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                    </div>
+                                    <div class="text">"Esta aplicación es la razón por la que mi familia y yo encontramos a nuestro fiel compañero. Es una herramienta esencial para cualquiera que quiera darle un hogar a una mascota necesitada".</div>
+                                    <div class="additional-info">
+                                        <div class="author">Cristina Ponce</div>
+                                        <div class="date-info">
+                                            <div class="date">10 de Setiembre de 2023</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="container">
-                        <div class="white-rectangle">
-                            <div class="content">
-                                <div class="rating">
-                                    <!-- añadir estrella -->
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="amarillo">&#9733;</span>
-                                    <span class="star" id="gris">&#9733;</span>
-                                </div>
-                                <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
-                                <div class="additional-info">
-                                    <div class="author">Carla Del Pilar</div>
-                                    <div class="date-info">
-                                        <div class="date">10 de julio de 2023</div>
+                    <!-- 5to testimonio -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="white-rectangle">
+                                <div class="content">
+                                    <div class="rating">
+                                        <!-- añadir estrella -->
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="gris">&#9733;</span>
+                                    </div>
+                                    <div class="text">"AdopetConfia ha mejorado la adopción de mascotas y me siento muy bien usando esta plataforma".</div>
+                                    <div class="additional-info">
+                                        <div class="author">Rousse Cabrera</div>
+                                        <div class="date-info">
+                                            <div class="date">19 de Junio de 2023</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                  </div>
                 </div>
             </div>
-        
             <button class="carousel-button" onclick="prevSlide()">Anterior</button>
             <button class="carousel-button" onclick="nextSlide()">Siguiente</button>
-
         </section> 
  
         <!--PREGUNTAS FRECUENTES (4ta seccion)-->
@@ -214,80 +219,71 @@
             <h2>Preguntas Frecuentes</h2> 
             <p>Informacion para las personas que buscan adoptar una <br>
                mascota. Resuelve tus dudas</p>
-
             <div class="accordion">
                 <div class="accordion-item">¿Cómo puedo encontrar albergues de animales cerca de mi ubicación?</div>
-                <div class="accordion-content">Contenido 1</div>
-        
+                <div class="accordion-content">Para encontrar albergues de animales cercanos en AdopetConfia, inicia sesión, busca la sección "Buscar Albergues", ingresa tu ubicación o activa la geolocalización, revisa la lista de albergues, filtra los resultados si es necesario y selecciona un albergue para más detalles o contacto.</div>
+
                 <div class="accordion-item">¿Qué información necesito proporcionar para registrarme?</div>
                 <div class="accordion-content">Para registrarte en AdopetConfia, necesitas proporcionar tu nombre completo, una dirección de correo electrónico válida, teléfono, dirección y fecha de nacimiento. También deberás crear una contraseña segura para tu cuenta. Una vez que completes estos campos, estarás listo para comenzar a utilizar nuestra plataforma y explorar las opciones de adopción de mascotas disponibles.</div>
         
                 <div class="accordion-item">¿Cómo puedo contactar a un albergue de animales para obtener información?</div>
-                <div class="accordion-content">Contenido 3</div>
+                <div class="accordion-content">Para contactar a un albergue de animales en AdopetConfia, inicia sesión, elige el albergue de interés, busca la opción de "Contactar" dentro de su perfil y envía tus preguntas o consultas directamente desde la plataforma.</div>
 
                 <div class="accordion-item">¿Cómo se asegura la confiabilidad de albergues y organizaciones de rescate?</div>
-                <div class="accordion-content">Contenido 4</div>
+                <div class="accordion-content">AdopetConfia asegura la confiabilidad de los albergues y organizaciones de rescate mediante un proceso de verificación, evaluaciones de usuarios, transparencia en la información proporcionada por los albergues y una actualización continua para mantener altos estándares de calidad y ética en la adopción.</div>
             </div>
-
         </section> 
 
         <!--EQUIPO DE TRABAJO (5ta seccion)-->
-        <section class="team"> 
-            <h2>Nuestro equipo de trabajo</h2> 
+        <section class="Team"> 
+            <h2>NUESTRO EQUIPO DE TRABAJO</h2> 
             <p>Conoce quiénes forman parte de este increible <br>
                proyecto</p>
             <div class="boxTeam">
                 <figure class="imagenTeam"> 
-
-                    <img src="img/Img_derecha1.jpg" alt="Miembro 1"> 
-                    
-                    <figcaption>Nombre Miembro 1</figcaption> 
-
+                    <img src="img/JAIRO.jpeg" alt="Miembro 1"> 
+                    <figcaption>Jairo Marin <br>
+                        Ingeniero de Sistemas</figcaption> 
                 </figure> 
+
                 <figure class="imagenTeam"> 
-
-                    <img src="img/Img_derecha2.jpg" alt="Miembro 2"> 
-                    
-                    <figcaption>Nombre Miembro 2</figcaption> 
-
+                    <img src="img/ELIANE.jpeg" alt="Miembro 2"> 
+                    <figcaption>Eliane Montesinos <br>
+                        Ingeniero de Sistemas</figcaption> 
                 </figure> 
+
                 <figure class="imagenTeam"> 
-
-                    <img src="img/Img_izquierda1.jpg" alt="Miembro 3"> 
-                    
-                    <figcaption>Nombre Miembro 3</figcaption> 
-
+                    <img src="img/DIEGO.jpeg" alt="Miembro 3">                     
+                    <figcaption>Diego Alonso <br>
+                        Ingeniero de Software</figcaption> 
                 </figure> 
+
                 <figure class="imagenTeam"> 
-
-                    <img src="img/Img_derecha2.jpg" alt="Miembro 4"> 
-                    
-                    <figcaption>Nombre Miembro 4</figcaption> 
-
+                    <img src="img/CARLOS.jpeg" alt="Miembro 4">                     
+                    <figcaption>Carlos Shimabukuro <br>
+                        Ingeniero de Software</figcaption> 
                 </figure> 
+
                 <figure class="imagenTeam"> 
-
-                    <img src="ruta_img_equipo1.jpg" alt="Miembro 5"> 
-                    
-                    <figcaption>Nombre Miembro 5</figcaption> 
-
+                    <img src="img/VITTORIO.jpg" alt="Miembro 5">                     
+                    <figcaption>Vittorio Eduardo <br>
+                        Ingeniero de Software</figcaption> 
                 </figure> 
+
                 <figure class="imagenTeam"> 
-
-                    <img src="ruta_img_equipo1.jpg" alt="Miembro 6"> 
-                    
-                    <figcaption>Nombre Miembro 6</figcaption> 
-
+                    <img src="img/SERGIO.jpeg" alt="Miembro 6">                     
+                    <figcaption>Sergio Guzmán <br>
+                        Ingeniero de Sistemas</figcaption> 
                 </figure> 
             </div>
         </section> 
-        
+
         <!-- COMENTARIOS (6ta seccion)-->
         <section class="Comentarios">
             <div class="containerComentarios row">
                 <!--Division para la imagen-->
                 <div class="boxComentarios col2">
-                    <h1>Tu opinión nos importa <br>
+                    <h1>Tu opinión nos importa, <br>
                         ¡Déjanos un comentario!</h1>
                     <p id="txtComentarios">
                         Te invitamos a colaborar con nosotros en la mejora continua <br>
@@ -298,7 +294,7 @@
                     </div>
                 </div>
                 <div class="boxComentarios col1-md-5 col12">
-                    <img src="img/2.jpeg" class="imgComentarios" alt="">
+                    <img src="img/imagen de OPINION.jpg" class="imgComentarios" alt="">
                 </div>
             </div>
         </section>
@@ -317,10 +313,26 @@
         </section> 
 
     </main> 
-  
+    <!-- PIE DE PAGINA -->
     <footer> 
-        <p>&copy; 2022 AdopetConfia. Todos los derechos reservados.</p>
+        <div class="container">
+            <p>&copy; Copyright © 2023 BRIX Agency | All Rights Reserved</p>
+            <img src="img/LOGO.jpeg" alt="#">
+            <div class="fraseDonar">
+                <p>Donación</p>
+            </div>
+            <div class="icons">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-tiktok"></ion-icon>
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+        </div>
     </footer> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
     <script src="js/menu.js"></script> 
 </body> 
 
