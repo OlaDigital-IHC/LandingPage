@@ -26,10 +26,11 @@ nav{
     z-index: 1000;
 }
 nav ul li{
-    color: black;
+    background: #EFBD8A;
     display: inline-block;
     line-height: 35px;
-    margin: 0 2px;
+    margin: 0 3px;
+    margin-top: 15px;
 }
 header nav ul { 
     background-color: #EFBD8A;
@@ -47,10 +48,12 @@ header nav ul li a {
     text-transform: capitalize;
 } 
 header nav a img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
 } 
-
+.botonIngresar{
+    margin-top: 12px;
+}
 /*para darle color al pasar el puntero sobre el menu de opciones*/
 li a:hover{
     background: #e5ceb7;
@@ -64,15 +67,15 @@ li a:hover{
     /*padding: 50px 0; */ 
     padding: 3rem 0;
 } 
-h1{
+.introduction h1{
     font-size: 2rem;
     color:#81450E;
     font-weight: 900;
+    background: #FFEFD3;
 }
 p{
     margin-top: 20px; 
     color: #74362C;
-    
 }
 input{
     height: 35px;
@@ -116,7 +119,6 @@ button{
     gap: 20px; 
     padding: 10px 0; 
 } 
-
 h2{
     text-align: center; 
     padding: 0px 0px 0px 0px;
@@ -129,7 +131,6 @@ h2{
     text-align: center;
     margin-top: 0px;
 }
-
 .boxGallery{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -143,74 +144,124 @@ h2{
     object-fit: cover;
 }
 
-
 /* 3ra SECCION RESEÑAS */
-
 .testimonials{
     margin-left: 167px;
 }
-
 .testimonials, .faq, .team, .donations { 
     background: #FFEFD3;
-
-    padding: 50px 0; 
-
+    padding: 70px 0; 
 } 
-
 .testimonials h2{
     text-align: left;
     line-height: 1;
 }
-
+/*
 .testimonials article { 
     background: #FFEFD3;
-
     border: 1px solid #EFBD8A; 
-
     padding: 20px; 
-
     margin-bottom: 20px; 
-
-} 
-
-.team figure { 
-
-    background: #FFEFD3;
-    display: inline-block; 
-
-    margin: 0 20px; 
-
-    text-align: center; 
-
-} 
-
-
+} */
 
 .carousel-container {
-    width: 300px;
+    width: 100%;
     overflow: hidden;
 }
-
 .carousel-content {
     display: flex;
     transition: transform 0.5s ease;
 }
-
 .carousel-item {
-    /* cambiar el porcentaje*/
-    min-width: 50%; 
+    /* cambiar el porcentaje si deseas*/
+    min-width: 27%; 
     box-sizing: border-box;
 }
-
 .carousel-button {
     cursor: pointer;
 }
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-rectangle {
+    width: 329px;
+    height: 223px;
+    background: white;
+    box-shadow: 0px 1px 4px rgba(24, 32, 61, 0.08);
+    border-radius: 8px;
+    border: 1px #E1E4ED solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px;
+    text-align: left;
+}
+.text {
+    background: white;
+    color: #484B53;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: left;
+}
+.additional-info {
+    background: white;
+    color: #484B53;
+    font-family: Inter;
+    text-align: left;
+}
 
+.author {
+    background: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+.date-info {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+.date {
+    background: white;
+    opacity: 0.50;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+.rating{
+    background: white;
+}
+.star{
+    background: white;
+    
+}
+#amarillo{
+    color: #E6CF00;
+}
+#gris{
+    color: #B4B9C9;
+}
 
 /* 4ta SECCION PREGUNTAS FRECUENTES */ 
 .questions{
-    padding-left: 467px;
-    padding-right: 467px;
+    padding-left: 450px;
+    padding-right: 380px;
+    margin-bottom: 80px;
 } 
 .questions p{
     align-content: center;
@@ -219,43 +270,56 @@ h2{
 .accordion {
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 22px 0;
 }
-
 .accordion-item {
     background-color: #f9f9f9;
+    color: #5d6375;
     padding: 10px;
     cursor: pointer;
     border-bottom: 1px solid #ccc;
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
 }
-
 .accordion-item:last-child {
     border-bottom: none;
 }
-
 .accordion-content {
+    color: #6D758F;
     display: none;
     padding: 10px;
     background-color: white;
 }
-
 .accordion-item.active {
     background-color: #ddd;
 }
-
 .accordion-item.active + .accordion-content {
     display: block;
 }
-
 
 /*5ta SECCION EQUIPO DE TRABAJO */
 .team{
     justify-content: center;
     display: contents;
 }
+.team figure { 
+    background: #FFEFD3;
+    display: inline-block; 
+
+    margin: 0 20px; 
+
+    text-align: center; 
+} 
 .team p{
     align-content: center;
     text-align: center;
+    padding-left: 80px;
+}
+.team h2{
+    padding-left: 80px;
 }
 .boxTeam{
     display: grid;
@@ -278,7 +342,7 @@ h2{
 section.Comentarios{
     background: #81450E;
     padding: 3rem 0;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .containerComentarios{
     background: #81450E;
@@ -295,7 +359,7 @@ section.Comentarios{
     justify-content: center;
 }
 .imgComentarios{
-    width: 70%;
+    width: 90%;
     background: #81450E;
 }
 .col2{
@@ -339,11 +403,56 @@ h1{
     line-height: 1;
     text-align: center; 
 } 
+.donations img{
+    display: inline-block;
+    width: 18%;
+    height: 18%;
+    border-style: solid;
+    border-color: #81450E;
+    border-width: 50px;
+    border-radius: 8px; 
+    margin-top: 30px;
+}
+.imagenDonations{
+    text-align: center;
+}
 
-
-
-
-
+/* PIE DE PAGINA */
 footer{
-    background: #FFEFD3;
-} 
+    background: #EFBD8A;
+}
+footer p{
+    background: #EFBD8A;
+    margin: 0;
+    color: #81450E;
+    padding-top: 10px;
+    font-size: 1em;
+    margin-right: 280px;
+}
+footer .container{
+    background: #EFBD8A;
+    display: inline-flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+footer .container img{
+    height: 48px;
+    width: 80px;
+    margin: 15px;
+    margin-left:-140px;
+}
+
+footer .icons{
+    color:#81450E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0 3px 0;
+    padding: 0;
+}
+.fraseDonar{
+    margin-left: 140px;
+    background: #EFBD8A;
+}
