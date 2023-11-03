@@ -409,7 +409,7 @@ h1{
     height: 18%;
     border-style: solid;
     border-color: #81450E;
-    border-width: px;
+    border-width: 50px;
     border-radius: 8px; 
     margin-top: 30px;
 }
@@ -417,24 +417,17 @@ h1{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
+/* PIE DE PAGINA */
 footer{
     background: #EFBD8A;
 }
-
 footer p{
     background: #EFBD8A;
     margin: 0;
     color: #81450E;
     padding-top: 10px;
     font-size: 1em;
+    margin-right: 280px;
 }
 footer .container{
     background: #EFBD8A;
@@ -445,16 +438,21 @@ footer .container{
 }
 
 footer .container img{
-    height: 43px;
-    width: 100px;
+    height: 48px;
+    width: 80px;
     margin: 15px;
+    margin-left:-140px;
 }
 
 footer .icons{
-    color:#DBDBDB;
+    color:#81450E;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 3px 0 3px 0;
     padding: 0;
+}
+.fraseDonar{
+    margin-left: 140px;
+    background: #EFBD8A;
 }
