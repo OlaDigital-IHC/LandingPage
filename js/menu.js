@@ -84,3 +84,9 @@ Comentarios.addEventListener("click", (c) =>{
 })
 
 
+const botonIngresar = document.getElementById('botonIngresar');
+
+botonIngresar.addEventListener('click', function() {
+    window.location.href = "https://www.figma.com/proto/vbqE7xu7OwRySxvfBdR46X/AdopetConfia---Movil?type=design&node-id=83-7005&t=pIm1qIxYvaooMPcz-1&scaling=scale-down&page-id=76%3A5895&starting-point-node-id=83%3A7005";
+});
+
