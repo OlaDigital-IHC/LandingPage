@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>AdopetConfia</title> 
     <link rel="stylesheet" href="css/styles.css">
-    
 </head> 
 <body> 
     <header> 
@@ -24,7 +23,7 @@
                     <li><a href="#" id="testimonials">Reseñas</a></li> 
                 </ul> 
             </div>
-            <button class="botonIngresar">Ingresar</button> 
+            <button class="botonIngresar" id="botonIngresar">Ingresar</button> 
         </nav> 
     </header> 
     <main id="main-section"> 
@@ -36,8 +35,8 @@
                 de adopción</h1>  
             <p>"Donde comienza la historia de la amistad perfecta"</p> 
             <div class="search-bar"> 
-                <input type="text" placeholder="Buscar mascota..."> 
-                <input type="text" placeholder="Lugar de procedencia"> 
+                <input type="text" placeholder="Buscar mascota..." class="intro_input"> 
+                <input type="text" placeholder="Lugar de procedencia" class="intro_input"> 
                 <button>🔍</button> 
             </div> 
             <div class="boxIntroduction">
@@ -208,6 +207,54 @@
                             </div>
                         </div>
                     </div>
+                    <!-- 6to testimonio -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="white-rectangle">
+                                <div class="content">
+                                    <div class="rating">
+                                        <!-- añadir estrella -->
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                    </div>
+                                    <div class="text">"AdopetConfia ha simplificado la adopción de mascotas y mejorado nuestras vidas con peludos compañeros".</div>
+                                    <div class="additional-info">
+                                        <div class="author">Rosa Merino</div>
+                                        <div class="date-info">
+                                            <div class="date">10 de Agosto de 2023</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7to testimonio -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="white-rectangle">
+                                <div class="content">
+                                    <div class="rating">
+                                        <!-- añadir estrella -->
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="amarillo">&#9733;</span>
+                                        <span class="star" id="gris">&#9733;</span>
+                                    </div>
+                                    <div class="text">"AdopetConfia nos dio la confianza para dar el paso hacia la adopción. Estamos agradecidos por esta plataforma que promueve la adopción responsable."</div>
+                                    <div class="additional-info">
+                                        <div class="author">Leison Montes</div>
+                                        <div class="date-info">
+                                            <div class="date">13 de Octubre de 2023</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <button class="carousel-button" onclick="prevSlide()">Anterior</button>
@@ -242,37 +289,37 @@
             <div class="boxTeam">
                 <figure class="imagenTeam"> 
                     <img src="img/JAIRO.jpeg" alt="Miembro 1"> 
-                    <figcaption>Jairo Marin <br>
+                    <figcaption class="team_nombre">Jairo Marin <br>
                         Ingeniero de Sistemas</figcaption> 
                 </figure> 
 
                 <figure class="imagenTeam"> 
                     <img src="img/ELIANE.jpeg" alt="Miembro 2"> 
-                    <figcaption>Eliane Montesinos <br>
+                    <figcaption class="team_nombre">Eliane Montesinos <br>
                         Ingeniero de Sistemas</figcaption> 
                 </figure> 
 
                 <figure class="imagenTeam"> 
                     <img src="img/DIEGO.jpeg" alt="Miembro 3">                     
-                    <figcaption>Diego Alonso <br>
+                    <figcaption class="team_nombre">Diego Alonso <br>
                         Ingeniero de Software</figcaption> 
                 </figure> 
 
                 <figure class="imagenTeam"> 
                     <img src="img/CARLOS.jpeg" alt="Miembro 4">                     
-                    <figcaption>Carlos Shimabukuro <br>
+                    <figcaption class="team_nombre">Carlos Shimabukuro <br>
                         Ingeniero de Software</figcaption> 
                 </figure> 
 
                 <figure class="imagenTeam"> 
                     <img src="img/VITTORIO.jpg" alt="Miembro 5">                     
-                    <figcaption>Vittorio Eduardo <br>
+                    <figcaption class="team_nombre">Vittorio Eduardo <br>
                         Ingeniero de Software</figcaption> 
                 </figure> 
 
                 <figure class="imagenTeam"> 
                     <img src="img/SERGIO.jpeg" alt="Miembro 6">                     
-                    <figcaption>Sergio Guzmán <br>
+                    <figcaption class="team_nombre">Sergio Guzmán <br>
                         Ingeniero de Sistemas</figcaption> 
                 </figure> 
             </div>
