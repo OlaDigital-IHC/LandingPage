@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             item.nextElementSibling.style.display = (item.classList.contains('active')) ? 'block' : 'none';
         });
     });
-});
-    
+});    
 
 const carousel = document.getElementById('carousel');
 let currentIndex = 0;
@@ -82,5 +81,11 @@ Comentarios.addEventListener("click", (c) =>{
     const sectionComentarios= document.querySelector(".Comentarios");
     sectionComentarios.scrollIntoView({behavior:"smooth"}); /*hace una transicion */
 })
+
+const botonIngresar = document.getElementById('botonIngresar'); 
+/* INICIO SESION */
+botonIngresar.addEventListener('click', function() {
+    window.location.href= "inicioSesion.html";
+});
 
 
