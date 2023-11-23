@@ -111,12 +111,7 @@ button{
     width: 380px;
     margin: 18px;
 }
-.search-bar { 
-    display: flex; 
-    gap: 10px; 
-    justify-content: center; 
-    margin-top: 20px; 
-} 
+
 .intro_input{
     width: 80%;
     max-width: 400px;

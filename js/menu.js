@@ -14,8 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             item.nextElementSibling.style.display = (item.classList.contains('active')) ? 'block' : 'none';
         });
     });
-});
-    
+});    
 
 const carousel = document.getElementById('carousel');
 let currentIndex = 0;
@@ -83,10 +82,10 @@ Comentarios.addEventListener("click", (c) =>{
     sectionComentarios.scrollIntoView({behavior:"smooth"}); /*hace una transicion */
 })
 
-
-const botonIngresar = document.getElementById('botonIngresar');
-
+const botonIngresar = document.getElementById('botonIngresar'); 
+/* INICIO SESION */
 botonIngresar.addEventListener('click', function() {
-    window.location.href = "https://www.figma.com/proto/vbqE7xu7OwRySxvfBdR46X/AdopetConfia---Movil?type=design&node-id=83-7005&t=pIm1qIxYvaooMPcz-1&scaling=scale-down&page-id=76%3A5895&starting-point-node-id=83%3A7005";
+    window.location.href= "inicioSesion.html";
 });
+
 
