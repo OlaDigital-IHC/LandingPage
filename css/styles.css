@@ -43,8 +43,9 @@ header nav ul li a {
     background-color: #EFBD8A;
     text-decoration: none; 
     color: #74362C; 
-    font-size: 18px;
-    padding: 7px 13px;
+    font-size:medium;
+
+    padding: 1rem;
     border-radius: 3px;
     text-transform: capitalize;
 } 
@@ -55,7 +56,6 @@ header nav a img{
 .botonIngresar{
     margin-top: 12px;
 }
-/*para darle color al pasar el puntero sobre el menu de opciones*/
 li a:hover{
     background: #e5ceb7;
     transition: 2s;
@@ -65,7 +65,6 @@ li a:hover{
 .introduction { 
     background: #FFEFD3;
     text-align: center; 
-    /*padding: 50px 0; */ 
     padding: 3rem 0;
 } 
 .introduction h1{
@@ -127,11 +126,11 @@ button{
 .barreraNavegacion a{
     background: #EFBD8A;
 }
+
 /* 2da SECCION GALERIA */
 .gallery { 
     background: #FFEFD3;
     display: grid; 
-    /*grid-template-columns: repeat(1, 2fr); */
     gap: 20px; 
     padding: 10px 0; 
 } 
@@ -141,7 +140,7 @@ h2{
     font-size: 2rem;
     color:#81450E;
     margin-top: 0px;
-    line-height: 0.5;
+    line-height: 1em;   
 }
 .gallery p{
     text-align: center;
@@ -162,23 +161,22 @@ h2{
 
 /* 3ra SECCION RESEÑAS */
 .testimonials{
-    margin-left: 167px;
+    margin: 1rem;
+    text-align: center;
 }
 .testimonials, .faq, .team, .donations { 
     background: #FFEFD3;
-    padding: 70px 0; 
+    padding: 1rem; 
 } 
 .testimonials h2{
-    text-align: left;
+    text-align: center;
     line-height: 1;
 }
-/*
-.testimonials article { 
-    background: #FFEFD3;
-    border: 1px solid #EFBD8A; 
-    padding: 20px; 
-    margin-bottom: 20px; 
-} */
+.testimonials p{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 20px;
+}
 
 .carousel-container {
     width: 100%;
@@ -189,9 +187,10 @@ h2{
     transition: transform 0.5s ease;
 }
 .carousel-item {
-    /* cambiar el porcentaje si deseas*/
-    min-width: 27%; 
+    min-width: 500px; 
     box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .carousel-button {
     cursor: pointer;
@@ -214,8 +213,8 @@ h2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
-    margin: 15px;
+    padding: 5px;
+    margin: 1px;
     text-align: left;
 }
 .text {
@@ -226,7 +225,7 @@ h2{
     font-weight: 400;
     line-height: 22px;
     word-wrap: break-word;
-    padding: 5px;
+    padding: 1rem;
     text-align: left;
 }
 .additional-info {
@@ -275,23 +274,29 @@ h2{
 
 /* 4ta SECCION PREGUNTAS FRECUENTES */ 
 .questions{
-    padding-left: 450px;
-    padding-right: 380px;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-content: center;
 } 
+.questions h2{
+    line-height: 1em;
+}
 .questions p{
     align-content: center;
     text-align: center;
+    line-height: 1em; 
 }
 .accordion {
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 22px 0;
+    margin: 2rem;
+
+    min-width: 300px;
 }
 .accordion-item {
     background-color: #f9f9f9;
     color: #5d6375;
-    padding: 10px;
+    padding: 1rem;
     cursor: pointer;
     border-bottom: 1px solid #ccc;
     
@@ -306,7 +311,7 @@ h2{
 .accordion-content {
     color: #6D758F;
     display: none;
-    padding: 10px;
+    padding: 1rem;
     background-color: white;
 }
 .accordion-item.active {
@@ -329,10 +334,12 @@ h2{
 .Team p{
     align-content: center;
     text-align: center;
-    padding-left: 80px;
+    padding: 1rem;
 }
 .Team h2{
-    padding-left: 80px;
+    align-content: center;
+    text-align: center;
+    line-height: 1em;
 }
 .boxTeam{
     display: grid;
@@ -423,6 +430,7 @@ h1{
     display: inline-block;
     width: 18%;
     height: 18%;
+    min-width: 300px;
     border-style: solid;
     border-color: #81450E;
     border-width: 50px;
@@ -434,41 +442,31 @@ h1{
 }
 
 /* PIE DE PAGINA */
+
 footer{
-    background: #EFBD8A;
+    background-color: #EFBD8A;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: auto;
+    width: 100%;
 }
-footer p{
-    background: #EFBD8A;
-    margin: 0;
-    color: #81450E;
-    padding-top: 10px;
-    font-size: 1em;
-    margin-right: 280px;
-}
-footer .container{
-    background: #EFBD8A;
-    display: inline-flex;
-    justify-content: center;
-    align-items:center;
-    text-align: center;
-}
-
-footer .container img{
-    height: 60px;
-    width: 70px;
-    margin: 15px;
-    margin-left:-140px;
-}
-
-footer .icons{
-    color:#81450E;
+.footer_container{
+    background-color: #EFBD8A;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:center;
     align-items: center;
-    margin: 3px 0 3px 0;
-    padding: 0;
 }
-.fraseDonar{
-    margin-left: 140px;
-    background: #EFBD8A;
+
+small{
+    text-align: left;
+    color: #81450E;
+    background-color: #EFBD8A;
+    margin-left: 3%;
 }
+.footer_img{
+    width: 80px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
